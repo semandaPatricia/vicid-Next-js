@@ -43,11 +43,7 @@ export default function Herosection() {
 
   return (
     <main className={styles.main}>
-      <Image 
-        src="/images/v2.jpg"
-        fill={true}
-        alt="background"
-      />
+     
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
           <p ref={firstText}>Vicid company -</p>
